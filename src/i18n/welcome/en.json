@@ -1,0 +1,16 @@
+{
+  "subject": "Welcome to Milimon!",
+  "preview": "Your account is ready: your calculations and preferences follow you to any device.",
+  "greeting": "Hi, {name}!",
+  "intro": "So glad to have you here. With your account, what you do on Milimon comes with you to any device.",
+  "saved": "What your account keeps",
+  "items": [
+    "Your currency, language and light or dark mode.",
+    "The latest values of each calculator.",
+    "The calculations you save to your history."
+  ],
+  "cta": "Open the calculator",
+  "more": "You can also read the blog or change your preferences in your account.",
+  "account": "Your account",
+  "reason": "You get this email because you created a Milimon account."
+}

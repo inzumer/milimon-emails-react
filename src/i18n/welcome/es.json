@@ -1,0 +1,16 @@
+{
+  "subject": "¡Bienvenida a Milimon!",
+  "preview": "Tu cuenta está lista: tus cálculos y preferencias te siguen a cualquier dispositivo.",
+  "greeting": "¡Hola, {name}!",
+  "intro": "Qué lindo tenerte por acá. Con tu cuenta, lo que hagas en Milimon te acompaña en cualquier dispositivo.",
+  "saved": "Qué se guarda en tu cuenta",
+  "items": [
+    "Tu moneda, idioma y modo claro u oscuro.",
+    "Los últimos valores de cada calculadora.",
+    "Los cálculos que guardes en tu historial."
+  ],
+  "cta": "Abrir la calculadora",
+  "more": "También podés leer el blog o cambiar tus preferencias en tu cuenta.",
+  "account": "Tu cuenta",
+  "reason": "Te llega este email porque creaste una cuenta en Milimon."
+}

@@ -1,0 +1,9 @@
+{
+  "subject": "Tu cuenta de Milimon fue eliminada",
+  "preview": "Borramos tu cuenta y todos tus datos.",
+  "title": "Tu cuenta fue eliminada",
+  "body": "Borramos tu perfil, tus preferencias y todos tus cálculos guardados. No queda ningún dato tuyo en nuestros sistemas.",
+  "back": "Si algún día querés volver, podés crear una cuenta nueva cuando quieras. Las calculadoras siguen funcionando sin cuenta.",
+  "cta": "Ir a Milimon",
+  "reason": "Te llega este email para confirmar que se borró tu cuenta. No vas a recibir más emails nuestros."
+}

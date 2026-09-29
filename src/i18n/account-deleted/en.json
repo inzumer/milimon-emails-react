@@ -1,0 +1,9 @@
+{
+  "subject": "Your Milimon account was deleted",
+  "preview": "We deleted your account and all your data.",
+  "title": "Your account was deleted",
+  "body": "We deleted your profile, your preferences and all your saved calculations. No data of yours is left in our systems.",
+  "back": "If you ever want to come back, you can create a new account anytime. The calculators keep working without one.",
+  "cta": "Go to Milimon",
+  "reason": "You get this email to confirm your account was deleted. You will not get any more emails from us."
+}
