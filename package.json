@@ -52,7 +52,7 @@
     "preview": "email dev --dir src/emails --port 3030"
   },
   "dependencies": {
-    "@inzumer/email": "link:../inzumer-email"
+    "@inzumer/email": "^0.1.0"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",
