@@ -1,6 +1,6 @@
 name: Release
 
-# Changesets through inzumer-ci: "Version Packages" PR, then npm publish with provenance.
+# Changesets through inzumer-ci (@v2: Changesets CLI v3): "Version Packages" PR, then npm publish with provenance.
 on:
   push:
     branches: [main]
@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   release:
-    uses: inzumer/inzumer-ci/.github/workflows/changesets-release.yml@v1
+    uses: inzumer/inzumer-ci/.github/workflows/changesets-release.yml@v2
     with:
       check: pnpm check
       publish: pnpm release
