@@ -4,6 +4,8 @@ name: Release
 on:
   push:
     branches: [main]
+  # Run it by hand when a push could not start it (e.g. a missing inzumer-ci tag).
+  workflow_dispatch:
 
 permissions:
   contents: write
