@@ -33,11 +33,3 @@ export const AccountDeletedEmail = ({ lang, siteUrl }: AccountDeletedEmailProps)
     </EmailLayout>
   );
 };
-
-/** Sample data for `pnpm preview`. */
-AccountDeletedEmail.PreviewProps = {
-  lang: 'es',
-  siteUrl: 'https://inzumer.github.io/milimon-frontend-web',
-} satisfies AccountDeletedEmailProps;
-
-export default AccountDeletedEmail;

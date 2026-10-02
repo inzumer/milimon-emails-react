@@ -29,9 +29,9 @@ Spanish is the source; `en.json` must have exactly the same keys (checked by typ
 
 ## Scripts
 
-| Command              | What it does                                 |
-| -------------------- | -------------------------------------------- |
-| `pnpm preview`       | React Email preview at http://localhost:3030 |
-| `pnpm test:coverage` | Vitest with the 90% gate                     |
-| `pnpm build`         | Bundle to `dist/` with tsup                  |
-| `pnpm changeset`     | Describe a change for the next release       |
+| Command              | What it does                                                                      |
+| -------------------- | --------------------------------------------------------------------------------- |
+| `pnpm storybook`     | Storybook with every email as sent, in Spanish and English: http://localhost:6006 |
+| `pnpm test:coverage` | Vitest with the 90% gate                                                          |
+| `pnpm build`         | Bundle to `dist/` with tsup                                                       |
+| `pnpm changeset`     | Describe a change for the next release                                            |

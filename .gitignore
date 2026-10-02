@@ -3,4 +3,5 @@ dist/
 coverage/
 *.log
 .DS_Store
-.react-email/
+# Storybook build (GitHub Pages)
+storybook-static/

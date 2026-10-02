@@ -51,12 +51,3 @@ export const WelcomeEmail = ({ lang, name, siteUrl }: WelcomeEmailProps) => {
     </EmailLayout>
   );
 };
-
-/** Sample data for `pnpm preview`. */
-WelcomeEmail.PreviewProps = {
-  lang: 'es',
-  name: 'Milagros',
-  siteUrl: 'https://inzumer.github.io/milimon-frontend-web',
-} satisfies WelcomeEmailProps;
-
-export default WelcomeEmail;
