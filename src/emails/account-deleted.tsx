@@ -12,6 +12,7 @@ export const AccountDeletedEmail = ({ lang, siteUrl }: AccountDeletedEmailProps)
   const text = getTranslations(lang, 'account-deleted');
   const common = getTranslations(lang, 'common');
   const links = siteLinks(siteUrl, lang);
+
   return (
     <EmailLayout
       lang={lang}

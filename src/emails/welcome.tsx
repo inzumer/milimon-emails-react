@@ -21,6 +21,7 @@ export const WelcomeEmail = ({ lang, name, siteUrl }: WelcomeEmailProps) => {
   const text = getTranslations(lang, 'welcome');
   const common = getTranslations(lang, 'common');
   const links = siteLinks(siteUrl, lang);
+
   return (
     <EmailLayout
       lang={lang}
