@@ -49,10 +49,11 @@
     "format:check": "prettier --check .",
     "changeset": "changeset",
     "release": "pnpm build && changeset publish",
-    "preview": "email dev --dir src/emails --port 3030"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@inzumer/email": "^0.1.0"
+    "@inzumer/email": "^0.2.0"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",
@@ -63,6 +64,9 @@
     "@inzumer/eslint": "^1.0.0",
     "@inzumer/prettier": "^1.0.0",
     "@inzumer/tsconfig": "^1.0.0",
+    "@storybook/addon-a11y": "^10.6.1",
+    "@storybook/addon-docs": "^10.6.1",
+    "@storybook/react-vite": "^10.6.1",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "@vitest/coverage-v8": "^5.0.2",
@@ -70,11 +74,11 @@
     "prettier": "^3.9.9",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "storybook": "^10.6.1",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
     "vite": "^8.3.1",
     "vite-tsconfig-paths": "^6.1.1",
-    "vitest": "^5.0.2",
-    "react-email": "^6.11.0"
+    "vitest": "^5.0.2"
   }
 }
