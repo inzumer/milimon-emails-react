@@ -20,6 +20,7 @@ export const milimonTheme = createEmailTheme({
 /** Site links in the email's language; `siteUrl` without the trailing slash. */
 export const siteLinks = (siteUrl: string, lang: Lang) => {
   const base = siteUrl.replace(/\/+$/, '');
+
   return {
     home: `${base}/${lang}`,
     calculator: `${base}/${lang}/calculator`,
