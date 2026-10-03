@@ -1,6 +1,6 @@
+import { milimonTheme, siteLinks } from '@/brand';
 import { getTranslations, type Lang } from '@i18n';
 import { EmailButton, EmailFooter, EmailHeading, EmailLayout, EmailText } from '@inzumer/email';
-import { milimonTheme, siteLinks } from '../brand';
 
 export interface AccountDeletedEmailProps {
   lang: Lang;

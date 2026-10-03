@@ -1,3 +1,4 @@
+import { milimonTheme, siteLinks } from '@/brand';
 import { getTranslations, type Lang } from '@i18n';
 import {
   EmailButton,
@@ -7,9 +8,8 @@ import {
   EmailLayout,
   EmailText,
 } from '@inzumer/email';
-import { milimonTheme, siteLinks } from '../brand';
 
-export interface WelcomeEmailProps {
+export interface AccountWelcomeEmailProps {
   lang: Lang;
   /** First name, or the whole name when there is no first name. */
   name: string;
@@ -17,8 +17,8 @@ export interface WelcomeEmailProps {
 }
 
 /** Sent when an account is created (first sign-in). */
-export const WelcomeEmail = ({ lang, name, siteUrl }: WelcomeEmailProps) => {
-  const text = getTranslations(lang, 'welcome');
+export const AccountWelcomeEmail = ({ lang, name, siteUrl }: AccountWelcomeEmailProps) => {
+  const text = getTranslations(lang, 'account-welcome');
   const common = getTranslations(lang, 'common');
   const links = siteLinks(siteUrl, lang);
 

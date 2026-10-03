@@ -1,7 +1,7 @@
 {
   "name": "@inzumer/milimon-emails",
   "version": "0.1.0",
-  "description": "Milimon transactional email templates (welcome, account deleted), in Spanish and English",
+  "description": "Milimon transactional email templates (account welcome, account deleted), in Spanish and English",
   "license": "MIT",
   "author": "Nahuel Zamuner <inzumer@gmail.com>",
   "homepage": "https://github.com/inzumer/milimon-emails-react#readme",
