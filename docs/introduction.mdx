@@ -1,0 +1,36 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Documentation/Introduction" />
+
+# Milimon · Emails
+
+The transactional emails of [Milimon](https://milimon.inzumer.workers.dev), built on
+[`@inzumer/email`](https://ui-emails.inzumer.com) and sent by the Milimon API in the language of the
+person's profile (Spanish or English).
+
+| Email                 | When it's sent                                              |
+| --------------------- | ----------------------------------------------------------- |
+| `AccountWelcomeEmail` | An account is created (first sign-in)                       |
+| `AccountDeletedEmail` | Someone deletes their account (it confirms no data is left) |
+
+Each story under **Pages** shows the email as sent, in both languages.
+
+## Usage
+
+```ts
+import { renderAccountWelcome, resolveLang } from '@inzumer/milimon-emails';
+
+const lang = resolveLang(user.locale, signInLocale);
+const { subject, html, text } = await renderAccountWelcome({ lang, name, siteUrl });
+```
+
+## Texts
+
+One folder per email in `src/i18n/<email>/{es,en}.json`; Spanish is the source and English must
+have the same keys (checked by types and tests).
+
+## Links
+
+- [GitHub](https://github.com/inzumer/milimon-emails-react) ·
+  [Milimon docs](https://inzumer.github.io/milimon-docs/) ·
+  [Inzumer ecosystem docs](https://ui-docs.inzumer.com/proyectos/milimon/)
