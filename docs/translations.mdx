@@ -1,0 +1,19 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Documentation/Translations" />
+
+# Translations
+
+Same structure as the Milimon site: one kebab-case folder per namespace, one file per language.
+
+```
+src/i18n/
+  common/{es,en}.json            # signature, shared links
+  account-welcome/{es,en}.json
+  account-deleted/{es,en}.json
+```
+
+- Spanish is the source; `en.json` must have exactly the same keys (checked by types and tests).
+- Emails read them with `getTranslations(lang, namespace)`.
+- `resolveLang(profileLocale, signInLocale)` picks the profile language, then the sign-in page one,
+  and falls back to Spanish.

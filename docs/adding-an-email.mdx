@@ -1,0 +1,16 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Documentation/Adding An Email" />
+
+# Adding An Email
+
+1. **Texts**: create `src/i18n/<email>/{es,en}.json` (Spanish first; English with the same keys) and
+   register the folder in `src/i18n/translations.ts`.
+2. **Page**: create `src/components/pages/<Name>Email/` with `<Name>Email.tsx` (built with the
+   [`@inzumer/email`](https://ui-emails.inzumer.com) components and `milimonTheme`), `index.ts`,
+   `<Name>Email.stories.tsx` (title `Pages/<Name>Email`, Spanish and English), `README.md` and
+   `__tests__/<Name>Email.test.tsx`.
+3. **Render**: add `render<Name>` in `src/render/render.tsx`, which adds the subject in the email
+   language.
+4. **Changeset**: `pnpm changeset` (minor for a new email).
+5. **API**: the Milimon API sends it with the profile language (`resolveLang`).

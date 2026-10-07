@@ -4,7 +4,11 @@ const preview: Preview = {
   parameters: {
     layout: 'fullscreen',
     // Documentation first: it's what opens at the root of the published Storybook.
-    options: { storySort: { order: ['Documentation', ['Introduction'], 'Pages'] } },
+    options: {
+      storySort: {
+        order: ['Documentation', ['Introduction', 'Translations', 'Adding An Email'], 'Pages'],
+      },
+    },
   },
 };
 
